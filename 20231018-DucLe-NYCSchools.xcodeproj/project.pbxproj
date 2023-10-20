@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB1369312AE33EB100BE89F8 /* _0231018_DucLe_NYCSchoolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1369302AE33EB100BE89F8 /* _0231018_DucLe_NYCSchoolsApp.swift */; };
+		DB1369332AE33EB100BE89F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1369322AE33EB100BE89F8 /* ContentView.swift */; };
+		DB1369352AE33EB500BE89F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1369342AE33EB500BE89F8 /* Assets.xcassets */; };
+		DB1369382AE33EB500BE89F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1369372AE33EB500BE89F8 /* Preview Assets.xcassets */; };
+		DB1369472AE33F1A00BE89F8 /* SchoolListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1369462AE33F1A00BE89F8 /* SchoolListViewModel.swift */; };
+		DB1369492AE33F4800BE89F8 /* SchoolListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1369482AE33F4800BE89F8 /* SchoolListView.swift */; };
+		DB13694D2AE33F8F00BE89F8 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB13694C2AE33F8F00BE89F8 /* School.swift */; };
+		DB13694F2AE33FBB00BE89F8 /* ScoreListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB13694E2AE33FBB00BE89F8 /* ScoreListViewModel.swift */; };
+		DB1369512AE33FDB00BE89F8 /* ScoreListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1369502AE33FDB00BE89F8 /* ScoreListView.swift */; };
+		DB1369532AE33FFE00BE89F8 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1369522AE33FFE00BE89F8 /* Score.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB13692D2AE33EB100BE89F8 /* 20231018-DucLe-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20231018-DucLe-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1369302AE33EB100BE89F8 /* _0231018_DucLe_NYCSchoolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0231018_DucLe_NYCSchoolsApp.swift; sourceTree = "<group>"; };
+		DB1369322AE33EB100BE89F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB1369342AE33EB500BE89F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB1369372AE33EB500BE89F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB1369462AE33F1A00BE89F8 /* SchoolListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListViewModel.swift; sourceTree = "<group>"; };
+		DB1369482AE33F4800BE89F8 /* SchoolListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListView.swift; sourceTree = "<group>"; };
+		DB13694C2AE33F8F00BE89F8 /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		DB13694E2AE33FBB00BE89F8 /* ScoreListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreListViewModel.swift; sourceTree = "<group>"; };
+		DB1369502AE33FDB00BE89F8 /* ScoreListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreListView.swift; sourceTree = "<group>"; };
+		DB1369522AE33FFE00BE89F8 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB13692A2AE33EB100BE89F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB1369242AE33EB100BE89F8 = {
+			isa = PBXGroup;
+			children = (
+				DB13692F2AE33EB100BE89F8 /* 20231018-DucLe-NYCSchools */,
+				DB13692E2AE33EB100BE89F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB13692E2AE33EB100BE89F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB13692D2AE33EB100BE89F8 /* 20231018-DucLe-NYCSchools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB13692F2AE33EB100BE89F8 /* 20231018-DucLe-NYCSchools */ = {
+			isa = PBXGroup;
+			children = (
+				DB13693F2AE33ED300BE89F8 /* Score */,
+				DB13693E2AE33EC600BE89F8 /* School */,
+				DB1369302AE33EB100BE89F8 /* _0231018_DucLe_NYCSchoolsApp.swift */,
+				DB1369322AE33EB100BE89F8 /* ContentView.swift */,
+				DB1369342AE33EB500BE89F8 /* Assets.xcassets */,
+				DB1369362AE33EB500BE89F8 /* Preview Content */,
+			);
+			path = "20231018-DucLe-NYCSchools";
+			sourceTree = "<group>";
+		};
+		DB1369362AE33EB500BE89F8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB1369372AE33EB500BE89F8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB13693E2AE33EC600BE89F8 /* School */ = {
+			isa = PBXGroup;
+			children = (
+				DB1369422AE33EE900BE89F8 /* ViewModel */,
+				DB1369412AE33EE400BE89F8 /* View */,
+				DB1369402AE33EDF00BE89F8 /* Model */,
+			);
+			path = School;
+			sourceTree = "<group>";
+		};
+		DB13693F2AE33ED300BE89F8 /* Score */ = {
+			isa = PBXGroup;
+			children = (
+				DB1369452AE33EFE00BE89F8 /* ViewModel */,
+				DB1369442AE33EF700BE89F8 /* View */,
+				DB1369432AE33EF200BE89F8 /* Model */,
+			);
+			path = Score;
+			sourceTree = "<group>";
+		};
+		DB1369402AE33EDF00BE89F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB13694C2AE33F8F00BE89F8 /* School.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB1369412AE33EE400BE89F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB1369482AE33F4800BE89F8 /* SchoolListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB1369422AE33EE900BE89F8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DB1369462AE33F1A00BE89F8 /* SchoolListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DB1369432AE33EF200BE89F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB1369522AE33FFE00BE89F8 /* Score.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB1369442AE33EF700BE89F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB1369502AE33FDB00BE89F8 /* ScoreListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB1369452AE33EFE00BE89F8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DB13694E2AE33FBB00BE89F8 /* ScoreListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB13692C2AE33EB100BE89F8 /* 20231018-DucLe-NYCSchools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB13693B2AE33EB500BE89F8 /* Build configuration list for PBXNativeTarget "20231018-DucLe-NYCSchools" */;
+			buildPhases = (
+				DB1369292AE33EB100BE89F8 /* Sources */,
+				DB13692A2AE33EB100BE89F8 /* Frameworks */,
+				DB13692B2AE33EB100BE89F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20231018-DucLe-NYCSchools";
+			productName = "20231018-DucLe-NYCSchools";
+			productReference = DB13692D2AE33EB100BE89F8 /* 20231018-DucLe-NYCSchools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB1369252AE33EB100BE89F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DB13692C2AE33EB100BE89F8 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = DB1369282AE33EB100BE89F8 /* Build configuration list for PBXProject "20231018-DucLe-NYCSchools" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB1369242AE33EB100BE89F8;
+			productRefGroup = DB13692E2AE33EB100BE89F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB13692C2AE33EB100BE89F8 /* 20231018-DucLe-NYCSchools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB13692B2AE33EB100BE89F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1369382AE33EB500BE89F8 /* Preview Assets.xcassets in Resources */,
+				DB1369352AE33EB500BE89F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB1369292AE33EB100BE89F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1369472AE33F1A00BE89F8 /* SchoolListViewModel.swift in Sources */,
+				DB13694F2AE33FBB00BE89F8 /* ScoreListViewModel.swift in Sources */,
+				DB1369532AE33FFE00BE89F8 /* Score.swift in Sources */,
+				DB13694D2AE33F8F00BE89F8 /* School.swift in Sources */,
+				DB1369332AE33EB100BE89F8 /* ContentView.swift in Sources */,
+				DB1369512AE33FDB00BE89F8 /* ScoreListView.swift in Sources */,
+				DB1369492AE33F4800BE89F8 /* SchoolListView.swift in Sources */,
+				DB1369312AE33EB100BE89F8 /* _0231018_DucLe_NYCSchoolsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DB1369392AE33EB500BE89F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB13693A2AE33EB500BE89F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB13693C2AE33EB500BE89F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"20231018-DucLe-NYCSchools/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IrisDuc.-0231018-DucLe-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB13693D2AE33EB500BE89F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"20231018-DucLe-NYCSchools/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IrisDuc.-0231018-DucLe-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB1369282AE33EB100BE89F8 /* Build configuration list for PBXProject "20231018-DucLe-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1369392AE33EB500BE89F8 /* Debug */,
+				DB13693A2AE33EB500BE89F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB13693B2AE33EB500BE89F8 /* Build configuration list for PBXNativeTarget "20231018-DucLe-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB13693C2AE33EB500BE89F8 /* Debug */,
+				DB13693D2AE33EB500BE89F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB1369252AE33EB100BE89F8 /* Project object */;
+}
