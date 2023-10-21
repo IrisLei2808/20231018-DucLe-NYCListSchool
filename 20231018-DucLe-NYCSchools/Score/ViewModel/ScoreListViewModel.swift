@@ -24,6 +24,7 @@ class ScoreListViewModel: ObservableObject {
                 guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else {
                     throw URLError(.badServerResponse)
                 }
+                print("data")
                 return data
             }
             .map { data in
